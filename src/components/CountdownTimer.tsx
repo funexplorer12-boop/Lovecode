@@ -8,10 +8,8 @@ interface TimeLeft {
   seconds: number;
 }
 
-// Set your reunion date here — 60 days from now as default
-const TARGET_DATE = new Date();
-TARGET_DATE.setDate(TARGET_DATE.getDate() + 60);
-TARGET_DATE.setHours(20, 0, 0, 0);
+// Set your reunion date here
+const TARGET_DATE = new Date('2026-03-13T18:00:00');
 
 function getTimeLeft(): TimeLeft {
   const now = new Date().getTime();
