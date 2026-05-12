@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
-const LOVE_TEXT = 'I LOVE YOU बाळा';
+const LOVE_TEXT = 'I LOVE YOU maji surmai';
 
 // Pre-computed stable petal data
 const PETALS = Array.from({ length: 30 }, (_, i) => ({
