@@ -9,7 +9,7 @@ interface TimeLeft {
 }
 
 // Set your reunion date here — tomorrow at 6 PM
-const TARGET_DATE = new Date('2026-05-14T19:00:00');
+const TARGET_DATE = new Date('2026-05-14T11:11:00');
 
 function getTimeLeft(): TimeLeft {
   const now = new Date().getTime();
